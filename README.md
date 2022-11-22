@@ -1,6 +1,6 @@
 <h1 align="center">Landing Page</h1>
 
- ![preview](./gitignor/landing-page.gif)
+ ![preview](./gitignore/landing-page.gif)
  
 <h2 align="center">:page_facing_up: Descrição</h2>
 <p>Projeto feito usando o vídeo do <a href="https://github.com/alexandresaints">Alexandre Saints</a> como base.</p>
