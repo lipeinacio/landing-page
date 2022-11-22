@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tittle {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: medium;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.4s all;
+    font-size: 17px;
+}
+.button {
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(132, 14, 201);
+    transition: 0.4s;
+    font-size: 1em;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 52px;
+    line-height: 50px;
+    font-family: poppinsmedium;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    line-height: 20px;
+    max-width: 580px;
+    padding-right: 100px;
+    text-indent: 10px;
+    
+}
+
+img {
+    width: 600px;
+    transition: 1s
+}
+
+img:hover {
+    width: 610px;
+    transition: 1s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form [type="submit"] {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 22px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}

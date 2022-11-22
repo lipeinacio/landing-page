@@ -1,0 +1,119 @@
+@media screen and (max-width: 1130px) {
+
+ul{
+    margin-top: 36px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+    
+h2 {
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+p {
+    padding-right: 10px;
+}
+
+img {
+    width: 423px;
+    margin-top: 120px;
+}
+
+img:hover {
+    width: 426px;
+    
+}
+
+form { 
+    margin: 0;
+    min-width: 80%;
+}
+
+}
+
+@media screen and (max-width: 780px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        margin-right: 25px;
+
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        height: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 38px;
+        text-align: center;
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    p{
+        text-align: center;
+        justify-content: center;
+        padding-right: 0px;
+        margin: auto;
+    }
+
+    form { 
+        margin: 0 auto;
+
+    }
+    
+
+    input {
+        align-self: center;
+    }
+
+    form [type="submit"] {
+        max-width: 200px;
+    }
+
+    img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .criativo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inicio {
+        display: none;
+    }
+
+    ul{
+        margin-top: 20px;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+
+}
