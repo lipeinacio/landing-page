@@ -8,7 +8,7 @@ Durante a criação da Landing Page consegui trabalhar muito com a implementaç�
 
 <a href="https://lipeinacio.github.io/landing-page/">Acesse aqui a Landing Page.</a>
 
-<h2 align="center"> :computer: Tecnologia utilizada </h2>
+<h2 align="center"> :computer: Tecnologias utilizadas </h2>
 
 - HTML
 - CSS
